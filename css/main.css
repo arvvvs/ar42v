@@ -51,19 +51,6 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-#name{
-  font-family:'Cantarell', serif;
-  size:1em;
-  color:#000000; 
-  text-decoration:none;
-  text-align:center; 
-}
-#name:hover{
-  color:dimgrey;
-}
-#name:visited{
-  color:#000000;
-}
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
@@ -108,17 +95,54 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
+.title{
+  text-align:center;
+}    
+#name{
+  font-family:'Cantarell', serif;
+  size:100%;
+  color:#000000; 
+  font-size:1.5em;
+  text-decoration:none;
+  text-align:center; 
+  margin-top:1em;
+}
+#name:hover{
+ /* font-color:#778899;*/
+  color:blue;
+}
+#name:visited{
+  color:#000000;
+}
+.top_bar{
+  list-style-type:none;
+  text-decoration:none;
+  margin:-10% 10% 10% -2%; 
+  text-align:center;
+  padding:0%;
+  color:#000000; 
+}
+.top_bar ul li{
+  list-style-type:none;
+  text-align:center;
+  text-decoration:none;
+  display:inline;
+  float:left;
+  padding:.75em;
+}
+a.linked_B{
+  text-decoration:none;
+  color:#000000;
+}
+a.linked_B:visited{
+  text-decoration:none;
+  color#000000:
+}
+a.linked_B:hover{
+  text-decoration:none;
+  color:SkyBlue;
+  border-bottom: .19em solid darkblue;
+}
 
 
 
