@@ -140,8 +140,8 @@ a.linked_B:visited{
 }
 a.linked_B:hover{
   text-decoration:none;
-  color:SkyBlue;
-  border-bottom: .19em solid darkblue;
+ color:none;
+  border-bottom: .17em solid darkblue;
 }
 
 
