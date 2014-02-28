@@ -98,6 +98,9 @@ textarea {
 .title{
   text-align:center;
 }    
+.background{
+  color:#FF3333;
+}
 #name{
   font-family:'Cantarell', serif;
   size:100%;
