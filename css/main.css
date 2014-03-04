@@ -115,6 +115,8 @@ html{
  /* font-color:#778899;*/
  // color:#EBEBEB;
 //}
+//color scheme used: http://www.colorcombos.com/color-schemes/103/ColorCombo103.html
+
 #name:visited{
   color:#000000;
 }
@@ -124,7 +126,7 @@ html{
   margin:-10% 10% 10% -2%; 
   text-align:center;
   padding:0%;
-  background-color:#FFFFFF;
+  color:#FFFFFF;
   color:#000000; 
 }
 
