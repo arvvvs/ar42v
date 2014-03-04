@@ -98,8 +98,8 @@ textarea {
 .title{
   text-align:center;
 }    
-.background{
-  background-color:#FF3333;
+html{
+  background-color:#AA1111;
 }
 #name{
   font-family:'Cantarell', serif;
@@ -110,10 +110,11 @@ textarea {
   text-align:center; 
   margin-top:1em;
 }
-#name:hover{
+
+//#name:hover{
  /* font-color:#778899;*/
-  color:blue;
-}
+ // color:#EBEBEB;
+//}
 #name:visited{
   color:#000000;
 }
@@ -126,7 +127,7 @@ textarea {
   color:#000000; 
 }
 .top_bar ul li{
-  list-style-type:none;
+  list-style-type:&diams;
   text-align:center;
   text-decoration:none;
   display:inline;
@@ -143,8 +144,8 @@ a.linked_B:visited{
 }
 a.linked_B:hover{
   text-decoration:none;
- color:none;
-  border-bottom: .17em solid darkblue;
+ color:#EBEBEB;
+//  border-bottom: .17em solid #000000;
 }
 
 
