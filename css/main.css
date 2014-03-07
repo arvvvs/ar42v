@@ -127,7 +127,7 @@ html{
   max-height:40em;
   max-width:35em;
 }*/
-.top_bar{
+.top_bar.clearfix{
 
  // list-style-type:square;
   text-decoration:none;
@@ -163,7 +163,7 @@ a.linked_B:hover{
  color:#EBEBEB;
 //  border-bottom: .17em solid #000000;
 }
-#mainImg{
+#mainImg.clearfix{
   margin-right:auto;
   margin-left:auto;
   //padding: 4%;
@@ -172,7 +172,7 @@ a.linked_B:hover{
   //text-align:center; 
   display:block;
   max-height:30em;
-  max-width:25em;
+  //max-width:25em;
 }
 
 
