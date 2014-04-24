@@ -114,9 +114,9 @@ textarea {
   display:inline-block;
   position:absolute;
   text-decoration:none;
-  z-index:4;
-  margin-top:37%;
-  margin-left:35%;
+  z-index:3;
+  margin-top:35%;
+  margin-left:43%;
   
 }
 a.info_BAR{
@@ -138,14 +138,15 @@ a.info_BAR{
 .info_bar ul li a img{
         text-decoration:none;      
 }
+
 #linkedIn{
         margin-top:19%;
-        height:2em;
-        width:2em;
+        height:3em;
+        width:3em;
 }
 #github{
-        height:2.5em;
-        width:2.5em;
+        height:3.7em;
+        width:3.7em;
 }
 .naming h1{
         margin-bottom:0%;
@@ -158,7 +159,7 @@ a.info_BAR{
   color:#009999; 
   color:#CF4854; 
   position:absolute;
-  z-index:2;
+  z-index:3;
   margin-top:40%;
   margin-bottom:0%;
   margin-left:auto;
@@ -180,7 +181,7 @@ a.info_BAR{
   color:#000000;
 }
 #mainImg{
-  z-index:2;
+  z-index:3;
   border-radius:15px;
   padding:.5%;
   position:absolute;
