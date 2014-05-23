@@ -156,7 +156,7 @@ a.info_BAR{
 #name{
   font-family:'Cantarell', serif;
   size:100%;
-  color:#009999; 
+   
   color:#CF4854; 
   position:absolute;
   z-index:3;
@@ -165,6 +165,7 @@ a.info_BAR{
   margin-left:auto;
   display:block;
   margin-right:auto;
+  text-shadow: 0 0 2px #000000;
   font-size:1.5em;
   text-decoration:none;
   text-align:center; 
@@ -202,6 +203,8 @@ a.info_BAR{
 //  padding:0%;
   position:fixed;
   z-index:3;
+  
+  text-shadow: 0 0 2px #000000;
   //color:#CF4854; 
 //  color:#F;
   //background-color:#FFFFFF;
