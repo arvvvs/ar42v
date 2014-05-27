@@ -270,6 +270,8 @@ html{
 .header-contents {
         color: #404040;
         text-decoration:none;
+        float:center;
+        text-align:center;
 }
 .all-bacground{
         background-color:#E0E0E0;
@@ -278,19 +280,26 @@ html{
   font-family: 'Raleway' ,serif;
   text-decoration:none;
         color: #404040;
-  float: left;
+  float: center;
+  text-align: center;
+  
 }
 .header-contents h1.my-name{
         margin-top:0%;
         font-family:'Raleway',serif;
         font-size: 4em;
         color: #404040;
+        margin-bottom:0%;
 }
 .header-contents .my-name a:visited{
                 
         color: #404040;
         text-decoration:none;
         font-family: 'Raleway',serif;
+}
+h4.tag-line{
+        margin-top:0%;
+        font-family: 'Ubuntu', serif;
 }
 .header-navbar{
         text-align:center;
@@ -322,7 +331,7 @@ html{
 }
 
 .navbar-contents li a:hover{
-        color:#0033FF;
+        color:#89AB93;
 }
 
 /* ==========================================================================
