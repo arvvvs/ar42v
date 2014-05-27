@@ -310,6 +310,8 @@ h4.tag-line{
 }
 .navbar-contents{
         text-decoration:none;
+        margin-bottom:0%;
+        padding-bottom:0%;
         border-style:dotted;
         margin-left:26%;
         margin-right:25%;
@@ -336,9 +338,62 @@ h4.tag-line{
 /*==========================================================================Posts
  * 
  * =======================================================================*/ 
+.post-container{
+        margin-top:0%;
+        margin-bottom:0%;
+        padding-top:0%;
+}
 .posts_list{
        list-style-type:none;
+       margin-left:23%;
+       margin-bottom:0%;
+       margin-top:0%;
+       padding-bottom:0%;
        }
+.post-excerpt{
+        margin-left:26%;
+        list-style-type:none;
+        padding:0%;
+}
+.posts_list li{
+        margin-right:0%;
+        margin-top:0%;
+        padding-top:0%;
+}
+.posts_list a{
+        font-size:2.7em;
+        text-decoration:none;
+        color:#333333;
+        margin-bottom:0%;
+        padding-bottom:0%;
+        
+}
+.posts-list-titles{
+        list-style-type: none;
+
+}
+.posts_list a:hover{
+        color:#667F6D;
+}
+ul.dates{
+        list-style-type:none;
+        font-size:.7em;
+        margin-right:0%;
+        padding-left:0%;
+        padding:0%;
+        margin-top:0%;
+}
+ul.dates li{
+        padding-left:1%;
+        margin-right:0%;
+}
+.date-title-align{
+        padding-top:0%;
+        margin-top:0%;
+        margin-left:0%;
+       
+        padding:0%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

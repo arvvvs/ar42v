@@ -1,0 +1,57 @@
+---
+layout: blog
+title: Akshay Verma's Blog
+description: Wo de Blog
+class: page-index
+---
+
+        <link rel="stylesheet" href="/css/main.css">
+
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway|Ubuntu|Roboto|Audiowide|Raleway Dots|Roboto Slab">
+<section class="section post-index">
+        <h2 class="section-title">
+                <!--                <a id="posts" href="#posts">Posts</a>-->
+        </h2>
+        <div class="post_ul">
+        <ul class="posts_list">
+                {% for post in site.posts %}
+                <!-- <div class="date-title-align">-->
+                <li class="posts-list-titles">
+                  <a href="{{ post.url }}" class="posts-list-title">{{ post.title }}</a>
+                  <ul class="dates">
+                          <li>    <span class="posts-list-date">{{post.date | date_to_string }}</span></li>
+                  </ul>
+                  </li> 
+                  <!--         </div>-->
+  </ul>
+
+          </ul>
+              <ul class="post-excerpt">
+                      <li>
+                  {{post.excerpt}}
+                  </li> 
+          </ul>
+                  {% endfor %}
+          <!--activate pagination page numbers once posts go beyond 12-->
+<!--          <div class="pagination">
+                  {% if paginator.previous_page %}
+                  <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+                  {% else %}
+                  <span class="previous">Previous</span>
+                  {%endif%}
+                  <span class="page_number">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
+                  {% if paginator.next_page %}
+                  <a href="/page{{paginator.next_page}}" class="next">Next</a>
+                  {% else %}
+                  <span class="next ">Next</span>
+                  {% endif %}
+          </div>
+                  
+   -->               
+
+
+  </div>
+  
+  </section>
+                  
