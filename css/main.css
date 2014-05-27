@@ -171,13 +171,11 @@ a.info_BAR{
   text-align:center; 
   //margin-top:1em;
 }
-
 //#name:hover{
  /* font-color:#778899;*/
  // color:#EBEBEB;
 //}
 //color scheme used: http://www.colorcombos.com/color-schemes/103/ColorCombo103.html
-
 #name:visited{
   color:#000000;
 }
@@ -262,7 +260,70 @@ min-height:100%;
   //max-width:1%;
 }
 */
+/*====================================================================
+ * layout blog
+ =======================================================================
+ */
+html{
+        background-color: #F8F8F8;
+}
+.header-contents {
+        color: #404040;
+        text-decoration:none;
+}
+.all-bacground{
+        background-color:#E0E0E0;
+}
+.header-contents .my-name a{
+  font-family: 'Raleway' ,serif;
+  text-decoration:none;
+        color: #404040;
+  float: left;
+}
+.header-contents h1.my-name{
+        margin-top:0%;
+        font-family:'Raleway',serif;
+        font-size: 4em;
+        color: #404040;
+}
+.header-contents .my-name a:visited{
+                
+        color: #404040;
+        text-decoration:none;
+        font-family: 'Raleway',serif;
+}
+.header-navbar{
+        text-align:center;
+        display:inline;
+        text-decoration:none;
+        float:center;
+        color:#000000;
+}
+.navbar-contents{
+        text-decoration:none;
+        border-style:dotted;
+        margin-left:26%;
+        margin-right:25%;
+        border-width:1px;
+        border-left:none;
+        border-right:none;
+        color:#000000;
+}
+.navbar-contents li{
+        display: inline;
+        padding: .3em;
+        font-family:'Roboto';
+        font-size: 2em;
+        text-decoration:none;
+}
+.navbar-contents li a{
+        text-decoration:none;
+        color:#000000;
+}
 
+.navbar-contents li a:hover{
+        color:#0033FF;
+}
 
 /* ==========================================================================
    Helper classes
