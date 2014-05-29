@@ -1,7 +1,7 @@
 ---
-title:Hello World
+title: "Hello World"
 layout: post
 ---
-Obligatory first post.  
 Hello World!
-Welcome to a journal of my adventures in life and code.  
+Welcome to my Jekyll and HTML5 Boilerplate built  Blog/Website.  
+This shall be my ground to sow with thoughts, admirations, projects, ideas, and mostfully (a word I just made up) my musings.

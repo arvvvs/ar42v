@@ -297,6 +297,9 @@ html{
         text-decoration:none;
         font-family: 'Raleway',serif;
 }
+.header-contents .my-name a:hover{
+        color: #3A4D3A;
+}
 h4.tag-line{
         margin-top:0%;
         font-family: 'Ubuntu', serif;
@@ -335,13 +338,20 @@ h4.tag-line{
 .navbar-contents li a:hover{
         color:#89AB93;
 }
+ul.post-excerpt{
+        font-family:'Raleway';
+        size:1.5em;
+}
 /*==========================================================================Posts
  * 
  * =======================================================================*/ 
-.post-container{
+/*.post-container{
         margin-top:0%;
         margin-bottom:0%;
         padding-top:0%;
+}*/
+.posts_list-titles{
+        padding:0%;
 }
 .posts_list{
        list-style-type:none;
@@ -351,15 +361,15 @@ h4.tag-line{
        padding-bottom:0%;
        }
 .post-excerpt{
-        margin-left:26%;
         list-style-type:none;
+        margin-right:30%;
         padding:0%;
 }
-.posts_list li{
+/*.posts_list li{
         margin-right:0%;
         margin-top:0%;
         padding-top:0%;
-}
+}*/
 .posts_list a{
         font-size:2.7em;
         text-decoration:none;
@@ -368,14 +378,15 @@ h4.tag-line{
         padding-bottom:0%;
         
 }
-.posts-list-titles{
+
+/*.posts-list-titles{
         list-style-type: none;
 
-}
+}*/
 .posts_list a:hover{
         color:#667F6D;
 }
-ul.dates{
+/*ul.dates{
         list-style-type:none;
         font-size:.7em;
         margin-right:0%;
@@ -386,14 +397,48 @@ ul.dates{
 ul.dates li{
         padding-left:1%;
         margin-right:0%;
-}
-.date-title-align{
+}*/
+/*.date-ktitle-align{
         padding-top:0%;
         margin-top:0%;
         margin-left:0%;
        
         padding:0%;
+}*/
+/*=========================================================================
+ * Projects Page
+ * =======================================================================
+ */
+h2.section-projects-title{
+  font-size:1.7em;
+  text-decoration:none;
+  padding:0%;
+
 }
+
+h2.section-projects-title a{
+        font-size: 1.4em;
+        padding:0%;
+        text-decoration:none;
+        color:#333333;
+        font-family:'Ubuntu', serif;
+}
+ul.project-descriptions{
+        list-style:none;
+        margin-left:22%;
+        margin-right:22%;
+}
+ul.project-descriptions li{
+         margin-top:0%;
+         margin-bottom:0%;
+         padding:0%;
+ }
+li.project-page-description{
+         font-size:1em;
+         z-index:-1;
+         font-family:'Ubuntu', serif;
+ }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

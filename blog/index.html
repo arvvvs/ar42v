@@ -16,23 +16,26 @@ class: page-index
         <div class="post_ul">
         <ul class="posts_list">
                 {% for post in site.posts %}
-                <!-- <div class="date-title-align">-->
                 <li class="posts-list-titles">
                   <a href="{{ post.url }}" class="posts-list-title">{{ post.title }}</a>
-                  <ul class="dates">
-                          <li>    <span class="posts-list-date">{{post.date | date_to_string }}</span></li>
-                  </ul>
                   </li> 
-                  <!--         </div>-->
-  </ul>
+                  <li class"date">
+                  <span class="post-date"> {{ post.date | date: "%-d %B %Y" }}
+                  </span>
+                  </li>
 
-          </ul>
               <ul class="post-excerpt">
                       <li>
-                  {{post.excerpt}}
+                      {%if post.content contains '<!--more-->' %}
+                      {{post.content | split:'<!--more-->' | first}}
+                      <strong><a href="{{post.url}}">Read More</a></strong>
+                      {% else %}
+                      {{post.content}}
+                      {% endif %}
                   </li> 
           </ul>
                   {% endfor %}
+          </ul>
           <!--activate pagination page numbers once posts go beyond 12-->
 <!--          <div class="pagination">
                   {% if paginator.previous_page %}
@@ -54,4 +57,3 @@ class: page-index
   </div>
   
   </section>
-                  
