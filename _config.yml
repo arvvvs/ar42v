@@ -1,6 +1,6 @@
 name: Akshay Verma
 description: This is my personal website
-url: "http://localhost:4000"
+url: "arvvvs.githut.io/ar42v/"
 paginate_path: "blog/page:num"
 markdown: rdiscount
 permalink: pretty 
