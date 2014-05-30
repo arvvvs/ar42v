@@ -1,7 +1,8 @@
 name: Akshay Verma
 description: This is my personal website
-baseurl: "arvvvs.github.io/ar42v"
+baseurl: "http://arvvvs.github.io/ar42v"
 paginate_path: "blog/page:num"
+safe: true
 markdown: rdiscount
 permalink: pretty 
 timezone: America/New_York
