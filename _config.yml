@@ -1,6 +1,5 @@
 name: Akshay Verma
 description: This is my personal website
-baseurl: "http://arvvvs.github.io/ar42v"
 paginate_path: "blog/page:num"
 safe: true
 markdown: rdiscount
