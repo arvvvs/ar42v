@@ -413,6 +413,7 @@ h2.section-projects-title{
   font-size:1.7em;
   text-decoration:none;
   padding:0%;
+  margin-bottom:0%;
 
 }
 
@@ -430,15 +431,61 @@ ul.project-descriptions{
 }
 ul.project-descriptions li{
          margin-top:0%;
-         margin-bottom:0%;
          padding:0%;
  }
 li.project-page-description{
          font-size:1em;
-         z-index:-1;
+         font-family:'Ubuntu', serif;
+         margin-bottom:3%;
+ }
+ li.project-name{
+         font-size:1.2em;
+         margin-top:10%;
          font-family:'Ubuntu', serif;
  }
+ li.project-name a{
+        color:#333333;
 
+        text-decoration:none;
+} 
+ li.project-description{
+         font-size:1em;
+         font-family: 'Ubuntu', serif;
+ }
+
+ a.in-post-links{
+         color:#787878;
+ }
+ a.in-post-links:visited{
+        color:#454545;
+
+}
+a.in-post-links:hover{
+        color:#9DC4A8;
+}
+/*========================================================================
+ * About Me
+ *========================================================================
+ */
+h2.about-projects-title{
+  font-size:1.7em;
+  text-decoration:none;
+  padding:0%;
+  font-family:'Raleway', serif;
+  margin-bottom:0%;
+  color:#333333;
+  margin-right:23%;
+  margin-left:26%;
+  }
+.About-Me{
+        font-size:1em;
+        font-family: 'Ubuntu', serif;
+        margin-left:26%;
+        margin-right:26%;
+}
+p.infoParagraph br{
+        margin-bottom:3%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
