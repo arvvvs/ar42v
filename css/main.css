@@ -217,6 +217,7 @@ h4.tag-line{
         display:inline;
         text-decoration:none;
         float:center;
+        max-width:70%;
         color:#000000;
 }
 .navbar-contents{
