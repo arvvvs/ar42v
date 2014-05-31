@@ -145,7 +145,7 @@ textarea {
           height:3em;
           width:3em;
   }
- #name{
+ #name h1{
       font-size:1.5em;
       min-width:20%;
       margin-left:auto;
