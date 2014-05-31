@@ -250,6 +250,7 @@ h4.tag-line{
 ul.post-excerpt{
         font-family:'Raleway';
         size:1.5em;
+        max-width:100%;
 }
 /*==========================================================================Posts
  * 
@@ -391,6 +392,7 @@ h2.about-projects-title{
         font-family: 'Ubuntu', serif;
         margin-left:26%;
         margin-right:26%;
+        max-width:100% 
 }
 p.infoParagraph br{
         margin-bottom:3%;
