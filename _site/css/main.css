@@ -226,6 +226,7 @@ h4.tag-line{
         border-style:dotted;
         margin-left:auto;
         min-width:20%;
+        max-width:70%;
         margin-right:auto;
         border-width:1px;
         border-left:none;
