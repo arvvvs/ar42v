@@ -265,14 +265,16 @@ ul.post-excerpt{
 }
 .posts_list{
        list-style-type:none;
-       margin-left:23%;
+       margin-left:auto;
        margin-bottom:0%;
        margin-top:0%;
        padding-bottom:0%;
        }
 .post-excerpt{
         list-style-type:none;
-        margin-right:30%;
+        min-width:60%;
+        text-align:center;
+        margin-right:auto;
         padding:0%;
 }
 /*.posts_list li{
