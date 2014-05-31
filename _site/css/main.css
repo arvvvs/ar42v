@@ -116,6 +116,7 @@ textarea {
   }
   .top_bar ul li{
           list-style-type:none;
+          padding: .05em;
           display:inline;
   }
   .info_bar{
@@ -223,8 +224,9 @@ h4.tag-line{
         margin-bottom:0%;
         padding-bottom:0%;
         border-style:dotted;
-        margin-left:26%;
-        margin-right:25%;
+        margin-left:auto;
+        min-width:20%;
+        margin-right:auto;
         border-width:1px;
         border-left:none;
         border-right:none;
