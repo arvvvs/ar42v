@@ -130,10 +130,6 @@ textarea {
           list-style-type:none;
           display:inline;
   }
-  #name{
-          color:#2F5E53;
-          text-shadow: 0 0 2px #000000;
-  }
   .top_bar ul li a{
           text-decoration:none;
           color:#5F7148;
@@ -150,10 +146,13 @@ textarea {
           width:3em;
   }
  #name{
-        font-size:1.5em;
-       margin-left:auto;
+      font-size:1.5em;
+      min-width:20%;
+      margin-left:auto;
       margin-right:auto;
-     text-align:center;
+      text-align:center;
+      color:#2F5E53;
+      text-shadow: 0 0 2px #000000;
     } 
   #mainImg{
           display:block;
