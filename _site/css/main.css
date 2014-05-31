@@ -96,176 +96,80 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.title{
-  text-align:center;
-  z-index:2;
-  display:block;
-  margin-top:20%;
-  position:absolute;
-}    
-//html{
- // background-color:#FF640D;
-//}
-.naming{
-        text-align:center;
-        z-index:2;
-        margin-left:30%;
-}
-.info_bar{
-  display:inline-block;
-  position:absolute;
-  text-decoration:none;
-  z-index:3;
-  margin-top:35%;
-  margin-left:43%;
-  
-}
-a.info_BAR{
-        
-}
-.info_bar ul{
-        list-style-type:none;
-        display: inline-flex;
-}
-.info_bar ul li{
-  display:inline-block;
-  text-align:center;
-  text-decoration:none;
-  margin-right: 10%;
-  float:center;
-  padding:0%;
+.background-image{
+    background:url('/img/Background.png') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  }  
+  .top_bar{
+          float:left;
+          padding:0;
+          width:100%;
+          position:absolute;
+          top:0;
+          margin-right:auto;
+          margin-left:auto;
 
-}
-.info_bar ul li a img{
-        text-decoration:none;      
-}
-
-#linkedIn{
-        margin-top:19%;
-        height:3em;
-        width:3em;
-}
-#github{
-        height:3.7em;
-        width:3.7em;
-}
-.naming h1{
-        margin-bottom:0%;
-        margin-left:auto;
-        margin-right:auto;
-}
-#name{
-  font-family:'Cantarell', serif;
-  size:100%;
-   
-  color:#CF4854; 
-  position:absolute;
-  z-index:3;
-  margin-top:40%;
-  margin-bottom:0%;
-  margin-left:auto;
-  display:block;
-  margin-right:auto;
-  text-shadow: 0 0 2px #000000;
-  font-size:1.5em;
-  text-decoration:none;
-  text-align:center; 
-  //margin-top:1em;
-}
-//#name:hover{
- /* font-color:#778899;*/
- // color:#EBEBEB;
-//}
-//color scheme used: http://www.colorcombos.com/color-schemes/103/ColorCombo103.html
-#name:visited{
-  color:#000000;
-}
-#mainImg{
-  z-index:3;
-  border-radius:15px;
-  padding:.5%;
-  position:absolute;
-  margin-left:auto;
-  display:block; 
-  background-color:white;
-  margin-top:10%;
-  margin-left:33%;
-//  max-width:480px;
-//  max-height:320px;
-  max-width: 50%;
-  max-height: 50%;
-}
-.top_bar{
- // list-style-type:square;
-  text-decoration:none;
-  //margin:-10% 10% 10% -2%; 
-//  padding:0%;
-  position:fixed;
-  z-index:3;
-  
-  text-shadow: 0 0 2px #000000;
-  //color:#CF4854; 
-//  color:#F;
-  //background-color:#FFFFFF;
-  //color:#000000; 
-}
-
-.top_bar ul li{
-  display:inline;
-  //list-style-type:disc;
-  text-align:center;
-  text-decoration:none;
-  float:left;
- // list-style-type:disc;
-  padding:.75em;
-}
-a.linked_B{
-  text-decoration:none;
-  color:#CF4854; 
- // list-style-type:square;
-  
-}
-
-a.linked_B:visited{
-  //text-decoration:none;
-  list-style-type:circle;
-  color#000000:
-}
-a.linked_B:hover{
-  //text-decoration:none;
- color:#80628B;
-//  border-bottom: .17em solid #000000;
-}
-html, body{
-        height:100%;
-}
-#backu{
-width:100%;
-height: auto;  
-background-repeat: no-repeat;
-padding:0%;
-min-height:100%;
-////height:41em;
-}
-/*#mainImg{
-  margin-right:auto;
-  margin-left:auto;
-  width:70em;
-  height:75em;
-  //padding: 4%;
-  //position:relative;
-  //padding-top:5%;
-  //text-align:center; 
-  display:block;
-  //max-height:2%;
-  //max-width:1%;
-}
-*/
+  }
+  .top_bar ul li{
+          list-style-type:none;
+          display:inline;
+  }
+  .info_bar{
+          margin-bottom:auto;
+          margin-top:5%;
+  }
+  .info_bar ul{
+          margin-left:auto;
+          margin-right:auto;
+          text-align:center;
+  }
+  .info_bar ul li{
+          list-style-type:none;
+          display:inline;
+  }
+  #name{
+          color:#2F5E53;
+          text-shadow: 0 0 2px #000000;
+  }
+  .top_bar ul li a{
+          text-decoration:none;
+          color:#5F7148;
+  }
+  .top_bar ul li a:hover{
+          color:#31331E;
+  }
+  #github{
+          height:3.7em;
+          width:3.7em;
+  }
+  #linkedIn{
+          height:3em;
+          width:3em;
+  }
+ #name{
+        font-size:1.5em;
+       margin-left:auto;
+      margin-right:auto;
+     text-align:center;
+    } 
+  #mainImg{
+          display:block;
+          border-radius:.5em;
+          padding:.6%;
+          margin-left:auto;
+          margin-right:auto;
+          background-color:white;
+          max-width:40%;
+          max-height:40%;
+  }
 /*====================================================================
  * layout blog
  =======================================================================
  */
-html{
+body.{{page.class}} {
         background-color: #F8F8F8;
 }
 .header-contents {
