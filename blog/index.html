@@ -15,7 +15,7 @@ class: page-index
         <ul class="posts_list">
                 {% for post in site.posts %}
                 <li class="posts-list-titles">
-                <a href="{{ site.baseurl }}/{{ post.url }}" class="posts-list-title">{{ post.title }}</a>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="posts-list-title">{{ post.title }}</a>
                   </li> 
                   <li class"date">
                   <span class="post-date"> {{ post.date | date: "%-d %B %Y" }}
