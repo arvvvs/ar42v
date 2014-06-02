@@ -1,6 +1,6 @@
 name: Akshay Verma
 description: This is my personal website
-baseurl: "http://www.averma.me"
+baseurl: "http://averma.me"
 paginate_path: "blog/page:num"
 safe: true
 markdown: rdiscount
