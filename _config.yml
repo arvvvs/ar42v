@@ -3,7 +3,6 @@ description: This is my personal website
 baseurl: "http://arverma.me"
 paginate_path: "blog/page:num"
 safe: true
-markdown: rdiscount
 permalink: pretty 
 timezone: America/New_York
 
